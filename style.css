@@ -1,0 +1,55 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.bangladesh_flag{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100vh;
+    background-color: rgba(214, 186, 144, 0.753)
+
+}
+
+
+
+
+.flag{
+width: 300px;
+height: 180px;
+background-color: green;
+display: flex;
+position: relative;
+align-items: center;
+justify-content: center;
+}
+
+.circle{
+width: 90px;
+height: 90px;
+background-color: red;
+position: absolute;
+border-radius: 50%;
+left: 35%;
+}
+
+.name{
+    padding-top: 220px;
+    color: rgb(119, 0, 255);
+}
+
+.name:hover{
+    color: blue;   
+}  
+
+.copyright{
+    background-color: rgba(214, 186, 144, 0.753);
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: green;
+    padding-bottom: 50px;
+}
